@@ -1,0 +1,31 @@
+{
+  "name": "cli",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha ./test/queue"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.14.0",
+    "jade": "~1.11.0",
+    "mongoose": "^4.8.6",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "amqp": "^0.2.6",
+    "amqp-mock": "^0.1.4-1",
+    "amqplib-mocks": "^1.1.1",
+    "chai": "^3.5.0",
+    "exp-amqp-connection": "^2.2.3",
+    "exp-fake-amqplib": "^2.0.1",
+    "mocha": "^3.2.0",
+    "proxyquire": "^1.7.11",
+    "sinon": "^1.17.7"
+  }
+}
